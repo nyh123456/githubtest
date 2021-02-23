@@ -8,6 +8,7 @@ package com.tuling.pojo;
 public class User {
     private Integer id;
     private String name;
+    private String address;
 
     public Integer getId() {
         return id;
@@ -23,5 +24,13 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
